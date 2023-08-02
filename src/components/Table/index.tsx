@@ -6,6 +6,7 @@ import {
     TableContainer, TableHeader, TableTd, TableTh, StatusTransaction,
     TableBody, ButtonEdit, ButtonDelete, Select, ContainerSelects, TitleFilter, ContainerFilter
 } from './styles';
+import React from 'react';
 
 type Props = {
     transactions: Transaction[];
