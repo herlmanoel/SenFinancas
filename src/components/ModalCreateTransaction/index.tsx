@@ -4,7 +4,6 @@ import Modal from 'react-modal';
 import { useEffect, useState } from 'react';
 import { categoriesData } from '../../data/data';
 import { Category } from '../../models/Category';
-import React from 'react';
 
 type Props = {
     transactionSelected: Transaction | undefined;

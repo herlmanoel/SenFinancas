@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
 import { MenuResume } from './';
-import React from 'react';
 
 describe('Componente MenuResume', () => {
     test('Deve renderizar corretamente os valores de entrada, saída e total', () => {

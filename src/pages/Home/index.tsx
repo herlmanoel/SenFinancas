@@ -6,7 +6,6 @@ import { ModalCreateTransaction } from '../../components/ModalCreateTransaction'
 import { Table } from '../../components/Table';
 import { Transaction, TransactionStatus } from '../../models/Transaction';
 import { Container, Wrapper, ButtonFloating, Title } from './styles';
-import React from 'react';
 
 export const Home = () => {
 
