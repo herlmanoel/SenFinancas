@@ -10,10 +10,9 @@ type Props = {
     isOpenModal: boolean;
     setCloseModal: () => void;
     handleCreateTransaction: (transaction: Transaction) => void;
-    setTransactionSelected: (transaction: Transaction) => void;
 }
 
-export const ModalCreateTransaction = ({ transactionSelected, isOpenModal, setCloseModal, handleCreateTransaction, setTransactionSelected }: Props) => {
+export const ModalCreateTransaction = ({ transactionSelected, isOpenModal, setCloseModal, handleCreateTransaction }: Props) => {
     const [transaction, setTransaction] = useState<Transaction | undefined>( );
     const [categories] = useState<Category[]>(categoriesData);
     

@@ -114,7 +114,7 @@ export const Home = () => {
                 </Container>
                 <ButtonFloating data-testid="add-transaction-button" onClick={() => setIsOpenModal(true)}> <FiPlus color={COLORS.white} size={16} /> </ButtonFloating>
             </Wrapper>
-            {transactionSelected && <ModalCreateTransaction transactionSelected={transactionSelected} isOpenModal={isOpenModal} setCloseModal={handleCloseModal} handleCreateTransaction={handleCreateTransaction} setTransactionSelected={setTransactionSelected} />}
+            {transactionSelected && <ModalCreateTransaction transactionSelected={transactionSelected} isOpenModal={isOpenModal} setCloseModal={handleCloseModal} handleCreateTransaction={handleCreateTransaction} />}
         </>
     );
 }
